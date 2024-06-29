@@ -1,5 +1,6 @@
-.red {
-    color:red;
+#top{
+    background-image: url(/img/ramen1.jpg);
+    min-height: 100vh;
 }
 
 table{
