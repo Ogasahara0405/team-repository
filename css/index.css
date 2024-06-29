@@ -1,12 +1,11 @@
-#top{
-    background-image: url(/img/black.png), url(/img/ramen1.jpg), url(/img/ramen2.jpg), url(/img/ramen3.jpg), url(/img/ramen4.jpg), url(/img/ramen5.jpg),; 
-    min-height: 100vh;
-    animation: image_anime 10s ease; 
-    animation-fill-mode: backwards; 
-    animation-delay: 2s; 
-    animation-iteration-count: infinite;
 
+
+.layer{
+    position: relative;
+    background-color: rgba(0, 0, 0, 5);
+    z-index: 1;
 }
+/*白フラッシュは画像の読み込みが間に合ってないみたい*/
 
 @keyframes image_anime {
     0%{
