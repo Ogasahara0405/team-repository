@@ -1,7 +1,6 @@
 #top{
     background-image: url(/img/black.png), url(/img/ramen1.jpg), url(/img/ramen2.jpg), url(/img/ramen3.jpg), url(/img/ramen4.jpg), url(/img/ramen5.jpg),; 
     min-height: 100vh;
-    width: auto;
     animation: image_anime 10s ease; 
     animation-fill-mode: backwards; 
     animation-delay: 2s; 
@@ -33,10 +32,6 @@
     }
   }
 
-#fuck{
-    background-color: white;
-    color:red;
-}
 
 
 
