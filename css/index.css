@@ -1,6 +1,32 @@
 #top{
-    background-image: url(/img/ramen1.jpg);
+    background-image: url(/img/ramen1.jpg), url(/img/ramen2.jpg), url(/img/ramen3.jpg); 
     min-height: 100vh;
+    animation: image_anime 10s ease; 
+    animation-fill-mode: backwards; 
+    animation-delay: 2s; 
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes image_anime {
+    0% {
+        background-image: url(/img/ramen1.jpg); 
+    }
+    50%{
+        background-image: url(/img/ramen2.jpg);
+    }
+    100%{
+        background-image: url(/img/ramen4.jpg);
+    }
+  }
+
+
+.fullscreen{
+    background-size: cover;
+}
+
+.body{
+    margin: 0px 0px 0px 0px;
 }
 
 table{
